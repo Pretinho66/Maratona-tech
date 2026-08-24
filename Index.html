@@ -1,356 +1,289 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepfakes: Tecnologia, Riscos e Combate à Desinformação</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepfakes: Tecnologia, Riscos e Combate à Desinformação</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">DEEP<span>CHECK</span></div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sumario">Sumário</a></li>
-                <li><a href="#o-problema">O Problema</a></li>
-                <li><a href="#artefato">Como Funciona</a></li>
-                <li><a href="#perfil">Atuação Profissional</a></li>
-                <li><a href="#relatorio">Relatório Técnico</a></li>
-                <li><a href="#protecao">Recomendações</a></li>
-                <li><a href="#campanha">Campanha</a></li>
-                <li><a href="#referencias">Referências</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Navegação -->
+  <nav class="navbar">
+    <div class="logo">Deepfakes<span>.Info</span></div>
+    <ul class="nav-links">
+      <li><a href="#sumario">Sumário</a></li>
+      <li><a href="#problema">O Problema</a></li>
+      <li><a href="#artefato">Como Funciona</a></li>
+      <li><a href="#perfil">Perfil Profissional</a></li>
+      <li><a href="#aplicacoes">Aplicações</a></li>
+      <li><a href="#impactos">Impactos</a></li>
+      <li><a href="#identificacao">Identificação</a></li>
+      <li><a href="#campanha">Campanha</a></li>
+      <li><a href="#referencias">Referências</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <!-- Banner / Início -->
-        <section id="inicio" class="hero">
-            <div class="hero-content">
-                <span class="tag">Segurança Digital & IA</span>
-                <h1>DEEPFAKES</h1>
-                <p class="subtitle">Tecnologia, Riscos e Combate à Desinformação</p>
-                <a href="#o-problema" class="btn-primary">Explorar Análise</a>
-            </div>
-        </section>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>DEEPFAKES: TECNOLOGIA, RISCOS E COMBATE À DESINFORMAÇÃO</h1>
+      <p>Em uma sociedade na qual qualquer rosto ou voz pode ser artificialmente reproduzido, verificar a informação tornou-se uma responsabilidade de todos.</p>
+      <a href="#problema" class="btn">Explorar Conteúdo</a>
+    </div>
+  </header>
 
-        <!-- Sumário -->
-        <section id="sumario" class="container">
-            <h2>Sumário da Apresentação</h2>
-            <div class="summary-grid">
-                <div class="summary-card"><span>01</span><p>O que são deepfakes?</p></div>
-                <div class="summary-card"><span>02</span><p>Como funciona a tecnologia?</p></div>
-                <div class="summary-card"><span>03</span><p>Principais aplicações</p></div>
-                <div class="summary-card"><span>04</span><p>Problemas e riscos</p></div>
-                <div class="summary-card"><span>05</span><p>Impactos na sociedade</p></div>
-                <div class="summary-card"><span>06</span><p>Detecção e prevenção</p></div>
-                <div class="summary-card"><span>07</span><p>Perfil profissional</p></div>
-                <div class="summary-card"><span>08</span><p>Relatório técnico</p></div>
-                <div class="summary-card"><span>09</span><p>Recomendações práticas</p></div>
-                <div class="summary-card"><span>10</span><p>Campanha de conscientização</p></div>
-            </div>
-        </section>
+  <main class="container">
 
-        <!-- O Problema -->
-        <section id="o-problema" class="container">
-            <div class="section-divider">
-                <h2>Divisão de Seção: O Problema dos Deepfakes</h2>
-            </div>
-            
-            <blockquote class="central-question">
-                "Como os deepfakes podem afetar a confiança nas informações digitais e quais medidas podem ser utilizadas para reduzir seus impactos?"
-            </blockquote>
+    <!-- Sumário -->
+    <section id="sumario" class="card">
+      <h2>Sumário da Apresentação</h2>
+      <ul class="sumario-grid">
+        <li>O que são deepfakes?</li>
+        <li>Como essa tecnologia funciona?</li>
+        <li>Principais aplicações</li>
+        <li>Problemas e riscos</li>
+        <li>Impactos na sociedade</li>
+        <li>Detecção e prevenção</li>
+        <li>Perfil profissional</li>
+        <li>Relatório técnico</li>
+        <li>Recomendações práticas</li>
+        <li>Campanha de conscientização</li>
+        <li>Conclusão</li>
+        <li>Referências</li>
+      </ul>
+    </section>
 
-            <div class="card highlight-card">
-                <h3>O que são deepfakes?</h3>
-                <p>são conteúdos digitais — principalmente imagens, vídeos e áudios — criados ou modificados por técnicas de inteligência artificial para representar pessoas dizendo ou fazendo algo que não aconteceu.</p>
-                <p><small>Origem: Combinação de <em>“deep learning”</em> (aprendizagem profunda) e <em>“fake”</em> (falso). Popularizou-se em 2017 para descrever mídias sintéticas.</small></p>
-            </div>
+    <!-- O Problema -->
+    <section id="problema" class="card">
+      <span class="section-tag">Divisão de Seção</span>
+      <h2>O Problema dos Deepfakes</h2>
+      <blockquote class="highlight-box">
+        <strong>Pergunta Central:</strong> Como os deepfakes podem afetar a confiança nas informações digitais e quais medidas podem ser utilizadas para reduzir seus impactos?
+      </blockquote>
+      
+      <h3>O que são deepfakes?</h3>
+      <p>Deepfakes são conteúdos digitais — principalmente imagens, vídeos e áudios — criados ou modificados com técnicas de inteligência artificial para representar pessoas dizendo ou fazendo algo que não aconteceu. O termo vem da combinação de "deep learning" (aprendizagem profunda) e "fake" (falso), popularizando-se a partir de 2017.</p>
+      
+      <h3>Por que isso é um problema?</h3>
+      <ul class="bullet-list">
+        <li>Pode espalhar informações falsas em grande velocidade.</li>
+        <li>Pode prejudicar a imagem e a reputação de uma pessoa.</li>
+        <li>Pode ser utilizado em golpes, fraudes, chantagens e extorsões.</li>
+        <li>Pode manipular opiniões políticas e dificultar a identificação da verdade.</li>
+      </ul>
+      <p class="alert-text"><em>O FBI alerta que conteúdos gerados por IA já são utilizados em fraudes, impersonação e esquemas de engenharia social.</em></p>
+    </section>
 
-            <h3>Por que isso é um problema?</h3>
-            <ul class="risk-list">
-                <li>Espalha informações falsas em grande velocidade.</li>
-                <li>Prejudica a imagem e a reputação de indivíduos.</li>
-                <li>Utilizado em golpes, fraudes, chantagens e extorsões.</li>
-                <li>Manipula opiniões políticas e processos eleitorais.</li>
-                <li>Dificulta a identificação do que é real na internet.</li>
-            </ul>
+    <!-- Artefato Digital / Como Funciona -->
+    <section id="artefato" class="card">
+      <h2>Como um Deepfake é Produzido?</h2>
+      <p>O deepfake utiliza modelos de IA capazes de aprender características de uma pessoa a partir de mídias prévias.</p>
+      
+      <div class="steps-grid">
+        <div class="step">
+          <span class="step-num">1</span>
+          <h4>Coleta de dados</h4>
+          <p>Reunião de imagens, vídeos ou gravações de voz.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <h4>Treinamento da IA</h4>
+          <p>Aprendizado de feições, expressões e movimentos de voz.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <h4>Geração/Substituição</h4>
+          <p>Modificação ou criação do conteúdo sintético.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">4</span>
+          <h4>Pós-produção</h4>
+          <p>Ajustes finos para aumentar o nivel de realismo.</p>
+        </div>
+      </div>
 
-            <div class="alert-box">
-                ⚠️ <strong>Alerta do FBI:</strong> Conteúdos gerados por IA já são amplamente utilizados em fraudes, impersonação e esquemas avançados de engenharia social.
-            </div>
-        </section>
+      <h3>Tipos Comuns</h3>
+      <div class="types-grid">
+        <div class="type-card"><strong>Face Swap:</strong> Substituição do rosto.</div>
+        <div class="type-card"><strong>Face Reenactment:</strong> Alteração das expressões faciais.</div>
+        <div class="type-card"><strong>Lip-sync:</strong> Sincronização artificial da boca.</div>
+        <div class="type-card"><strong>Clonagem de Voz:</strong> Reprodução de voz sintética.</div>
+        <div class="type-card"><strong>Pessoa Sintética:</strong> Criação de alguém inexistente.</div>
+      </div>
+    </section>
 
-        <!-- Como funciona / Artefato -->
-        <section id="artefato" class="container">
-            <h2>Artefato Digital: Como um Deepfake é Produzido?</h2>
-            
-            <div class="process-steps">
-                <div class="step">
-                    <div class="step-num">1</div>
-                    <h4>Coleta de Dados</h4>
-                    <p>Reunião de imagens, vídeos ou gravações de voz da vítima.</p>
-                </div>
-                <div class="step">
-                    <div class="step-num">2</div>
-                    <h4>Treinamento da IA</h4>
-                    <p>O modelo aprende feições, expressões, movimentos e padrões de voz.</p>
-                </div>
-                <div class="step">
-                    <div class="step-num">3</div>
-                    <h4>Geração / Troca</h4>
-                    <p>A IA sintetiza o novo conteúdo combinando os dados aprendidos.</p>
-                </div>
-                <div class="step">
-                    <div class="step-num">4</div>
-                    <h4>Pós-produção</h4>
-                    <p>Ajustes finais para garantir realismo e suavizar imperfeições.</p>
-                </div>
-            </div>
+    <!-- Perfil Profissional -->
+    <section id="perfil" class="card">
+      <span class="section-tag">Deepfakes no Mundo Real</span>
+      <h2>Perfil Profissional</h2>
+      <h3>Perito em Computação Forense / Analista de Cibersegurança</h3>
+      
+      <h4>O que esse profissional faz?</h4>
+      <p>Investiga evidências digitais para descobrir se um arquivo foi manipulado, quando/como foi produzido, alterações em imagens ou áudios, origem de arquivos e indícios de crimes digitais.</p>
 
-            <div class="tech-details">
-                <p><strong>Técnicas utilizadas:</strong> Autoencoders, GANs (Redes Adversárias Generativas), Modelos de Difusão, sincronização labial e clonagem de voz.</p>
-            </div>
+      <h4>Qual é a sua importância?</h4>
+      <p>Utiliza inteligência artificial, metadados e análise forense técnica para auxiliar na identificação de conteúdos manipulados. É uma função essencial devido às dificuldades de detecção em redes sociais causadas por compressão e edições de arquivos.</p>
+    </section>
 
-            <h3>Tipos Comuns de Mídia Sintética</h3>
-            <div class="grid-3">
-                <div class="card">
-                    <h4>Face Swap</h4>
-                    <p>Substituição do rosto de uma pessoa pelo de outra.</p>
-                </div>
-                <div class="card">
-                    <h4>Face Reenactment</h4>
-                    <p>Alteração das expressões e movimentos faciais em tempo real ou gravado.</p>
-                </div>
-                <div class="card">
-                    <h4>Lip-sync</h4>
-                    <p>Sincronização artificial dos lábios para acompanhar um áudio alterado.</p>
-                </div>
-                <div class="card">
-                    <h4>Clonagem de Voz</h4>
-                    <p>Criação de uma voz sintética idêntica à de uma pessoa real.</p>
-                </div>
-                <div class="card">
-                    <h4>Pessoa Sintética</h4>
-                    <p>Criação completa de um indivíduo hiper-realista que não existe.</p>
-                </div>
-            </div>
-        </section>
+    <!-- Aplicações -->
+    <section id="aplicacoes" class="card">
+      <h2>Principais Aplicações dos Deepfakes</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Área</th>
+              <th>Possível Aplicação</th>
+              <th>Risco Associado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Entretenimento / Cinema</strong></td>
+              <td>Efeitos visuais, rejuvenescimento, dublagem</td>
+              <td>Uso sem autorização, direitos de imagem</td>
+            </tr>
+            <tr>
+              <td><strong>Educação</strong></td>
+              <td>Avatares e representações históricas</td>
+              <td>Confusão entre ficção e realidade</td>
+            </tr>
+            <tr>
+              <td><strong>Acessibilidade</strong></td>
+              <td>Vozes e avatares digitais</td>
+              <td>Uso indevido de identidade</td>
+            </tr>
+            <tr>
+              <td><strong>Publicidade</strong></td>
+              <td>Personagens e campanhas virtuais</td>
+              <td>Falsos endossos</td>
+            </tr>
+            <tr>
+              <td><strong>Política</strong></td>
+              <td>Simulações e propaganda</td>
+              <td>Desinformação eleitoral</td>
+            </tr>
+            <tr>
+              <td><strong>Fraudes / Redes Sociais</strong></td>
+              <td>Imitação de autoridades, humor</td>
+              <td>Perdas financeiras, viralização de fakes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-        <!-- Perfil Profissional -->
-        <section id="perfil" class="container">
-            <h2>Perfil Profissional</h2>
-            <div class="profile-card">
-                <h3>Perito em Computação Forense / Analista de Cibersegurança</h3>
-                
-                <div class="profile-grid">
-                    <div>
-                        <h4>O que faz?</h4>
-                        <ul>
-                            <li>Investiga evidências digitais e manipulações de arquivo.</li>
-                            <li>Identifica quando e como o conteúdo foi produzido.</li>
-                            <li>Detecta alterações em imagens, vídeos e áudios.</li>
-                            <li>Rastreia origem, circulação e indícios de crimes digitais.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>Importância no Combate aos Deepfakes</h4>
-                        <p>Utiliza análise forense, IA, validação de metadados e comparação estrutural de arquivos.</p>
-                        <p>Atua em um cenário crítico onde a compressão e edição em redes sociais dificultam a identificação automática de fraudes.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Impactos -->
+    <section id="impactos" class="card">
+      <h2>Impactos e Consequências</h2>
+      <div class="impacts-grid">
+        <div class="impact-card">
+          <h3>Individuais</h3>
+          <ul>
+            <li>Danos à reputação</li>
+            <li>Violação da privacidade</li>
+            <li>Falsificação da identidade</li>
+            <li>Chantagem e extorsão</li>
+          </ul>
+        </div>
+        <div class="impact-card">
+          <h3>Sociais</h3>
+          <ul>
+            <li>Aumento da desinformação</li>
+            <li>Redução da confiança nas instituições</li>
+            <li>Manipulação da opinião pública</li>
+            <li>Maior eficiência de golpes</li>
+          </ul>
+        </div>
+        <div class="impact-card">
+          <h3>Políticos</h3>
+          <ul>
+            <li>Simulações de atos não realizados</li>
+            <li>Necessidade de regulação estrita (ex: diretrizes do TSE no Brasil)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <!-- Relatório Técnico -->
-        <section id="relatorio" class="container">
-            <h2>Relatório Técnico</h2>
+    <!-- Identificação e Recomendações -->
+    <section id="identificacao" class="card">
+      <h2>Como Identificar e Recomendações Práticas</h2>
+      <h3>Sinais de Suspeita</h3>
+      <ul class="bullet-list">
+        <li>Movimentos faciais pouco naturais ou piscadas incomuns.</li>
+        <li>Sincronização estranha entre voz e movimento labial.</li>
+        <li>Inconsistências em iluminação, som ou bordas do rosto.</li>
+      </ul>
+      
+      <div class="banner-action">
+        <h3>Regra de Ouro</h3>
+        <p><strong>PARE → VERIFIQUE → COMPARE → SÓ DEPOIS COMPARTILHE</strong></p>
+      </div>
 
-            <div class="report-section">
-                <h3>1. Introdução & Questão de Pesquisa</h3>
-                <p>Os deepfakes representam uma evolução técnica da manipulação digital. O avanço da IA generativa viabilizou a criação de áudios e vídeos hiper-realistas com baixo custo e tempo mínimo.</p>
-                <div class="question-box">
-                    <strong>Questão de Pesquisa:</strong> Como a sociedade pode continuar confiando nas informações digitais em um cenário no qual imagens, vídeos e vozes podem ser artificialmente produzidos?
-                </div>
-            </div>
+      <div class="tips-grid">
+        <div class="tip">
+          <h4>Proteção contra Golpes</h4>
+          <p>Nunca confie apenas em voz/imagem em situações de urgência financeira. Ligue diretamente para a pessoa por outro meio e não forneça dados sensíveis.</p>
+        </div>
+        <div class="tip">
+          <h4>Proteção da Identidade</h4>
+          <p>Cuide da exposição pública de fotos e voz nas redes sociais. Utilize senhas fortes, 2FA e proteja seus dados conforme a LGPD.</p>
+        </div>
+      </div>
+    </section>
 
-            <div class="report-section">
-                <h3>2. Metodologia</h3>
-                <p>Pesquisa bibliográfica e documental baseada em fontes como NIST, Europol, FBI, ANPD, TSE e legislação brasileira (LGPD e Lei nº 15.123/2025).</p>
-            </div>
+    <!-- Campanha -->
+    <section id="campanha" class="card highlight-card">
+      <h2>Campanha: "Não é porque você viu que é verdade"</h2>
+      <p class="slogan"><em>"Pare. Verifique. Pense antes de compartilhar."</em></p>
+      <p><strong>Mensagem principal:</strong> Seu olhar pode ser enganado. Sua atitude não precisa ser.</p>
+      
+      <h3>Ações Propostas</h3>
+      <ul class="bullet-list">
+        <li><strong>Nas escolas:</strong> Palestras e atividades sobre manipulação digital.</li>
+        <li><strong>Nas redes sociais:</strong> Publicações curtas sobre verificação de fontes.</li>
+        <li><strong>Na comunidade/família:</strong> Conscientização contra golpes de voz e vídeo.</li>
+      </ul>
+    </section>
 
-            <div class="report-section">
-                <h3>3. Mapeamento de Aplicações</h3>
-                <div class="table-wrapper">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Área</th>
-                                <th>Aplicação Positiva</th>
-                                <th>Risco / Ameaça</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Entretenimento</td><td>Efeitos visuais / Rejuvenescimento</td><td>Uso não autorizado de imagem</td></tr>
-                            <tr><td>Cinema</td><td>Dublagem e alteração digital</td><td>Violação de direitos de imagem</td></tr>
-                            <tr><td>Educação</td><td>Avatares de figuras históricas</td><td>Confusão entre ficção e realidade</td></tr>
-                            <tr><td>Acessibilidade</td><td>Vozes adaptativas e avatares</td><td>Uso indevido da identidade de voz</td></tr>
-                            <tr><td>Publicidade</td><td>Campanhas com avatares virtuais</td><td>Falsos endossos comerciais</td></tr>
-                            <tr><td>Política</td><td>Simulações de debate</td><td>Desinformação e fraude eleitoral</td></tr>
-                            <tr><td>Fraudes</td><td>Simulação de autoridades</td><td>Perdas financeiras severas</td></tr>
-                            <tr><td>Redes Sociais</td><td>Conteúdo humorístico</td><td>Viralização de notícias falsas</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+    <!-- Conclusão -->
+    <section id="conclusao" class="card">
+      <h2>Conclusão</h2>
+      <p>Os deepfakes representam uma evolução técnica que pode trazer inovações positivas no entretenimento e na acessibilidade, mas seus usos maliciosos ameaçam a confiança digital. A solução depende da união de <strong>Tecnologia + Legislação + Educação Digital + Responsabilidade das Plataformas + Senso Crítico</strong>.</p>
+      <blockquote class="legal-note">
+        <strong>Marco Legal no Brasil:</strong> A Lei nº 15.123/2025 aumentou a pena para violência psicológica com uso de IA contra a mulher, enquanto legislações de 2026 regulamentam conteúdos íntimos e a responsabilidade das plataformas.
+      </blockquote>
+    </section>
 
-            <div class="report-section">
-                <h3>4. Impactos Sociais, Individuais e Políticos</h3>
-                <div class="grid-3">
-                    <div class="card">
-                        <h4>Individuais</h4>
-                        <p>Danos à reputação, extorsão, chantagem e violação de privacidade com conteúdo não consentido.</p>
-                    </div>
-                    <div class="card">
-                        <h4>Sociais</h4>
-                        <p>Erosão da confiança pública, manipulação em massa e sofisticação de golpes bancários.</p>
-                    </div>
-                    <div class="card">
-                        <h4>Políticos</h4>
-                        <p>Adulteração de falas de candidatos. Regulado no Brasil pelo TSE e restrições legais severas.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- Referências -->
+    <section id="referencias" class="card">
+      <h2>Referências</h2>
+      <div class="ref-list">
+        <h4>Institucionais</h4>
+        <ul>
+          <li>NIST — Reducing Risks Posed by Synthetic Content (2024) & GenAI: Deepfakes 2026</li>
+          <li>FBI / IC3 — Criminals Use Generative AI (2024 / 2026)</li>
+          <li>ANPD — Radar Tecnológico sobre Deepfakes (2026)</li>
+          <li>TSE — Resolução nº 23.732/2024</li>
+          <li>Planalto — Lei nº 15.123/2025 e Lei nº 13.709/2018 (LGPD)</li>
+        </ul>
+        <h4>Acadêmicas</h4>
+        <ul>
+          <li>Bakar, S. A. R. S. A. et al. (2026) — Deepfake Face-swap Survey</li>
+          <li>Pei, G. et al. (2024) — Deepfake Generation and Detection</li>
+          <li>Mai, K. T. et al. (2023) — Humans Cannot Reliably Detect Speech Deepfakes</li>
+        </ul>
+      </div>
+    </section>
 
-            <div class="report-section">
-                <h3>5. Detecção e Diagnóstico</h3>
-                <p>Sinais de alerta: movimentos faciais não naturais, falhas na iluminação, inconsistência de áudio/sincronia e fontes não verificadas.</p>
-                <div class="action-banner">
-                    <strong>Protocolo Básico:</strong> PARE 🛑 → VERIFIQUE 🔍 → COMPARE ⚖️ → SÓ DEPOIS COMPARTILHE 📤
-                </div>
-            </div>
-        </section>
+  </main>
 
-        <!-- Recomendações Práticas -->
-        <section id="protecao" class="container">
-            <h2>Recomendações Práticas de Proteção</h2>
-            
-            <div class="grid-3">
-                <div class="card">
-                    <h3>1. Validação de Conteúdo</h3>
-                    <ul>
-                        <li>Desconfie de declarações bombásticas.</li>
-                        <li>Verifique se veículos confiáveis noticiaram o fato.</li>
-                        <li>Não compartilhe por impulso.</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>2. Proteção Contra Golpes</h3>
-                    <ul>
-                        <li>Nunca confie apenas em áudio/vídeo em pedidos de dinheiro.</li>
-                        <li>Confirme identidades por ligação direta fora do app.</li>
-                        <li>Não clique em links nem envie códigos/senhas.</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>3. Proteção Identitária</h3>
-                    <ul>
-                        <li>Restrinja a exibição pública de mídias pessoais.</li>
-                        <li>Utilize autenticação em dois fatores (2FA).</li>
-                        <li>Reporte e denuncie mídias não autorizadas.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+  <footer>
+    <p>Deepfakes: Tecnologia, Riscos e Combate à Desinformação &copy; 2026</p>
+  </footer>
 
-        <!-- Campanha -->
-        <section id="campanha" class="container highlight-section">
-            <div class="campaign-header">
-                <h2>CAMPANHA DE CONSCIENTIZAÇÃO</h2>
-                <h3 class="slogan">“NÃO É PORQUE VOCÊ VIU QUE É VERDADE”</h3>
-                <p class="tagline">Pare. Verifique. Pense antes de compartilhar.</p>
-            </div>
-
-            <div class="card">
-                <p><strong>Mensagem Principal:</strong> <em>"Seu olhar pode ser enganado. Sua atitude não precisa ser."</em></p>
-            </div>
-
-            <h3>Frentes de Ação</h3>
-            <div class="grid-2">
-                <div class="card">
-                    <h4>🏫 Nas Escolas</h4>
-                    <p>Palestras e atividades práticas sobre manipulação de mídias e alfabetização digital.</p>
-                </div>
-                <div class="card">
-                    <h4>📱 Nas Redes Sociais</h4>
-                    <p>Pílulas de conteúdo ensinando a checar fontes e reconhecer adulterações.</p>
-                </div>
-                <div class="card">
-                    <h4>👥 Na Comunidade</h4>
-                    <p>Alertas focados na prevenção de golpes financeiros por clonagem de voz e vídeo.</p>
-                </div>
-                <div class="card">
-                    <h4>🏡 Para Famílias</h4>
-                    <p>Protocolos de segurança e palavras-passe para chamadas de emergência.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Conclusão -->
-        <section id="conclusao" class="container">
-            <h2>Conclusão</h2>
-            <p>Os deepfakes representam um ponto de virada na produção digital. A solução não é o banimento da tecnologia, mas a construção de uma defesa em camadas: **Tecnologia + Legislação + Educação Digital + Responsabilidade das Plataformas + Senso Crítico**.</p>
-            
-            <div class="legal-updates">
-                <p><strong>Atualizações Legislativas no Brasil:</strong></p>
-                <ul>
-                    <li><strong>Lei nº 15.123/2025:</strong> Aumento de pena para violência psicológica contra a mulher praticada via IA.</li>
-                    <li><strong>Regulamentações de 2026:</strong> Regras estritas sobre conteúdos íntimos manipulados e responsabilização das plataformas.</li>
-                </ul>
-            </div>
-
-            <div class="final-quote">
-                "Em uma sociedade na qual qualquer rosto ou voz pode ser artificialmente reproduzido, verificar a informação tornou-se uma responsabilidade de todos."
-            </div>
-        </section>
-
-        <!-- Referências -->
-        <section id="referencias" class="container">
-            <h2>Referências</h2>
-            <div class="ref-grid">
-                <div>
-                    <h3>Fontes Institucionais</h3>
-                    <ul>
-                        <li>NIST — Reducing Risks Posed by Synthetic Content (2024) / GenAI: Deepfakes 2026.</li>
-                        <li>FBI / IC3 — Criminals Use Generative AI (2024 / 2026).</li>
-                        <li>Europol — Law enforcement and the challenge of deepfakes.</li>
-                        <li>ANPD — Radar Tecnológico sobre Deepfakes (2026).</li>
-                        <li>TSE — Resolução nº 23.732/2024.</li>
-                        <li>Planalto — Lei nº 15.123/2025 e Lei nº 13.709/2018 (LGPD).</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Fontes Acadêmicas</h3>
-                    <ul>
-                        <li>Bakar, S. A. R. S. A. et al. Deepfake Face-swap Survey (2026).</li>
-                        <li>Pei, G. et al. Deepfake Generation and Detection (2024).</li>
-                        <li>Tolosana, R. et al. DeepFakes and Beyond (2020).</li>
-                        <li>Mai, K. T. et al. Humans Cannot Reliably Detect Speech Deepfakes (2023).</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Projeto Educacional & Tecnológico — Apresentação sobre Deepfakes | 2026</p>
-    </footer>
-
-    <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
